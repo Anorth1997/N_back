@@ -7,26 +7,26 @@
 //
 
 import Foundation
+import UIKit
 
-struct Stimuli: Hashable{
-    private var identifier: Int
+struct Stimuli: Equatable{
+    var shapeID: Int?
+    var positionID: Int?
+    var colorID: Int?
+    var soundID: Int?
     
-    var hashValue: Int {
-        return identifier
+    init(ShapeID: Int?, PositionID: Int?, ColorID: Int?, SoundID: Int?) {
+        self.shapeID = ShapeID
+        self.positionID = PositionID
+        self.colorID = ColorID
+        self.soundID = SoundID
     }
     
     static func ==(lhs: Stimuli, rhs: Stimuli) -> Bool {
-        return lhs.identifier == rhs.identifier
-    }
-    
-    private static var identifierFactory = 0
-    
-    private static func getUniqueIdentifier() -> Int {
-        identifierFactory += 1
-        return identifierFactory
-    }
-    
-    init(){
-        self.identifier = Stimuli.getUniqueIdentifier()
+        if lhs.shapeID != rhs.shapeID, lhs.positionID != rhs.positionID, lhs.colorID != rhs.colorID, lhs.soundID != rhs.soundID {
+            return false
+        } else {
+            return true
+        }
     }
 }

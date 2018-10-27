@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0E291A20F7F05E000E87DC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E291920F7F05E000E87DC /* Level.swift */; };
+		BB0E292020F93351000E87DC /* AnotherGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0E291F20F93351000E87DC /* AnotherGameViewController.swift */; };
+		BB46BD5D20EC402200EF3D48 /* LevelDecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46BD5C20EC402200EF3D48 /* LevelDecisionViewController.swift */; };
+		BB46BD5F20EC408400EF3D48 /* ChooseDefaultLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46BD5E20EC408400EF3D48 /* ChooseDefaultLevelViewController.swift */; };
+		BB71EC8F211371A100D629E4 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71EC8E211371A100D629E4 /* CSVWriter.swift */; };
+		BB71EC9121137E7700D629E4 /* options.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71EC9021137E7700D629E4 /* options.swift */; };
+		BBA58A65210E5EE300FE7E82 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A64210E5EE300FE7E82 /* Checkbox.swift */; };
+		BBA58A67210E5F6A00FE7E82 /* CreatNewLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A66210E5F6A00FE7E82 /* CreatNewLevelViewController.swift */; };
+		BBA58A69210EB14700FE7E82 /* CustomizedLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A68210EB14700FE7E82 /* CustomizedLevelCell.swift */; };
+		BBA58A6B210EB33200FE7E82 /* CustomizedLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A6A210EB33200FE7E82 /* CustomizedLevelViewController.swift */; };
+		BBA58A71211005EA00FE7E82 /* RespondTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A70211005EA00FE7E82 /* RespondTimer.swift */; };
+		BBA58A752111029300FE7E82 /* CustomizedLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA58A742111029300FE7E82 /* CustomizedLevel.swift */; };
+		BBF11A96211F9E4900C2F207 /* InstructionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF11A95211F9E4900C2F207 /* InstructionPageViewController.swift */; };
 		BBF3A0BB20E023CA00E1B47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3A0BA20E023CA00E1B47F /* AppDelegate.swift */; };
-		BBF3A0BD20E023CA00E1B47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3A0BC20E023CA00E1B47F /* ViewController.swift */; };
+		BBF3A0BD20E023CA00E1B47F /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3A0BC20E023CA00E1B47F /* GameBoardViewController.swift */; };
 		BBF3A0C020E023CA00E1B47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0BE20E023CA00E1B47F /* Main.storyboard */; };
 		BBF3A0C220E023CB00E1B47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0C120E023CB00E1B47F /* Assets.xcassets */; };
 		BBF3A0C520E023CB00E1B47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0C320E023CB00E1B47F /* LaunchScreen.storyboard */; };
@@ -18,12 +31,27 @@
 		BBF3A0D720E16EDB00E1B47F /* SampleD.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0D320E16EDA00E1B47F /* SampleD.m4a */; };
 		BBF3A0D820E16EDB00E1B47F /* SampleB.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0D420E16EDA00E1B47F /* SampleB.m4a */; };
 		BBF3A0D920E16EDB00E1B47F /* SampleA.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BBF3A0D520E16EDA00E1B47F /* SampleA.m4a */; };
+		BBF3A0DB20E185E500E1B47F /* InformationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3A0DA20E185E500E1B47F /* InformationCollectionViewController.swift */; };
+		BBF3A0DD20E1912400E1B47F /* CustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF3A0DC20E1912400E1B47F /* CustomPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB0E291920F7F05E000E87DC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		BB0E291F20F93351000E87DC /* AnotherGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherGameViewController.swift; sourceTree = "<group>"; };
+		BB46BD5C20EC402200EF3D48 /* LevelDecisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDecisionViewController.swift; sourceTree = "<group>"; };
+		BB46BD5E20EC408400EF3D48 /* ChooseDefaultLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDefaultLevelViewController.swift; sourceTree = "<group>"; };
+		BB71EC8E211371A100D629E4 /* CSVWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVWriter.swift; sourceTree = "<group>"; };
+		BB71EC9021137E7700D629E4 /* options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = options.swift; sourceTree = "<group>"; };
+		BBA58A64210E5EE300FE7E82 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		BBA58A66210E5F6A00FE7E82 /* CreatNewLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatNewLevelViewController.swift; sourceTree = "<group>"; };
+		BBA58A68210EB14700FE7E82 /* CustomizedLevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedLevelCell.swift; sourceTree = "<group>"; };
+		BBA58A6A210EB33200FE7E82 /* CustomizedLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedLevelViewController.swift; sourceTree = "<group>"; };
+		BBA58A70211005EA00FE7E82 /* RespondTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondTimer.swift; sourceTree = "<group>"; };
+		BBA58A742111029300FE7E82 /* CustomizedLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedLevel.swift; sourceTree = "<group>"; };
+		BBF11A95211F9E4900C2F207 /* InstructionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionPageViewController.swift; sourceTree = "<group>"; };
 		BBF3A0B720E023CA00E1B47F /* N_back.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N_back.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF3A0BA20E023CA00E1B47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBF3A0BC20E023CA00E1B47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBF3A0BC20E023CA00E1B47F /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
 		BBF3A0BF20E023CA00E1B47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBF3A0C120E023CB00E1B47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBF3A0C420E023CB00E1B47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +62,8 @@
 		BBF3A0D320E16EDA00E1B47F /* SampleD.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleD.m4a; sourceTree = "<group>"; };
 		BBF3A0D420E16EDA00E1B47F /* SampleB.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleB.m4a; sourceTree = "<group>"; };
 		BBF3A0D520E16EDA00E1B47F /* SampleA.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleA.m4a; sourceTree = "<group>"; };
+		BBF3A0DA20E185E500E1B47F /* InformationCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCollectionViewController.swift; sourceTree = "<group>"; };
+		BBF3A0DC20E1912400E1B47F /* CustomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +98,27 @@
 			children = (
 				BBF3A0D120E16E6600E1B47F /* Music */,
 				BBF3A0CC20E023DA00E1B47F /* New Group */,
-				BBF3A0BC20E023CA00E1B47F /* ViewController.swift */,
+				BBF3A0BC20E023CA00E1B47F /* GameBoardViewController.swift */,
 				BBF3A0BE20E023CA00E1B47F /* Main.storyboard */,
+				BBF11A95211F9E4900C2F207 /* InstructionPageViewController.swift */,
+				BBA58A6A210EB33200FE7E82 /* CustomizedLevelViewController.swift */,
+				BBA58A66210E5F6A00FE7E82 /* CreatNewLevelViewController.swift */,
+				BB46BD5C20EC402200EF3D48 /* LevelDecisionViewController.swift */,
+				BB0E291F20F93351000E87DC /* AnotherGameViewController.swift */,
+				BB46BD5E20EC408400EF3D48 /* ChooseDefaultLevelViewController.swift */,
+				BBF3A0DA20E185E500E1B47F /* InformationCollectionViewController.swift */,
+				BBF3A0CD20E036EE00E1B47F /* N_back.swift */,
+				BBA58A742111029300FE7E82 /* CustomizedLevel.swift */,
+				BBF3A0DC20E1912400E1B47F /* CustomPlayer.swift */,
+				BBA58A70211005EA00FE7E82 /* RespondTimer.swift */,
+				BBF3A0CF20E0375D00E1B47F /* Stimuli.swift */,
+				BBA58A64210E5EE300FE7E82 /* Checkbox.swift */,
+				BB0E291920F7F05E000E87DC /* Level.swift */,
+				BB71EC9021137E7700D629E4 /* options.swift */,
+				BB71EC8E211371A100D629E4 /* CSVWriter.swift */,
+				BBA58A68210EB14700FE7E82 /* CustomizedLevelCell.swift */,
 				BBF3A0C120E023CB00E1B47F /* Assets.xcassets */,
 				BBF3A0C620E023CB00E1B47F /* Info.plist */,
-				BBF3A0CD20E036EE00E1B47F /* N_back.swift */,
-				BBF3A0CF20E0375D00E1B47F /* Stimuli.swift */,
 			);
 			path = N_back;
 			sourceTree = "<group>";
@@ -173,10 +218,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF3A0BD20E023CA00E1B47F /* ViewController.swift in Sources */,
+				BBA58A69210EB14700FE7E82 /* CustomizedLevelCell.swift in Sources */,
+				BBF3A0BD20E023CA00E1B47F /* GameBoardViewController.swift in Sources */,
+				BB71EC8F211371A100D629E4 /* CSVWriter.swift in Sources */,
+				BB46BD5D20EC402200EF3D48 /* LevelDecisionViewController.swift in Sources */,
+				BB0E292020F93351000E87DC /* AnotherGameViewController.swift in Sources */,
+				BBA58A6B210EB33200FE7E82 /* CustomizedLevelViewController.swift in Sources */,
+				BB71EC9121137E7700D629E4 /* options.swift in Sources */,
 				BBF3A0CE20E036EE00E1B47F /* N_back.swift in Sources */,
+				BBA58A65210E5EE300FE7E82 /* Checkbox.swift in Sources */,
+				BB0E291A20F7F05E000E87DC /* Level.swift in Sources */,
+				BBA58A71211005EA00FE7E82 /* RespondTimer.swift in Sources */,
+				BBF3A0DB20E185E500E1B47F /* InformationCollectionViewController.swift in Sources */,
 				BBF3A0BB20E023CA00E1B47F /* AppDelegate.swift in Sources */,
+				BBA58A752111029300FE7E82 /* CustomizedLevel.swift in Sources */,
+				BBF11A96211F9E4900C2F207 /* InstructionPageViewController.swift in Sources */,
+				BBA58A67210E5F6A00FE7E82 /* CreatNewLevelViewController.swift in Sources */,
 				BBF3A0D020E0375D00E1B47F /* Stimuli.swift in Sources */,
+				BB46BD5F20EC408400EF3D48 /* ChooseDefaultLevelViewController.swift in Sources */,
+				BBF3A0DD20E1912400E1B47F /* CustomPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6284SJ7W8F;
 				INFOPLIST_FILE = N_back/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ziyao.Chen.N-back";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -338,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6284SJ7W8F;
 				INFOPLIST_FILE = N_back/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ziyao.Chen.N-back";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
